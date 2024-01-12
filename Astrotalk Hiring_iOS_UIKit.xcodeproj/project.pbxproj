@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D9445E02B5133EF00F274DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9445DF2B5133EF00F274DF /* AppDelegate.swift */; };
+		8D9445E22B5133EF00F274DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9445E12B5133EF00F274DF /* SceneDelegate.swift */; };
+		8D9445E42B5133EF00F274DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9445E32B5133EF00F274DF /* ViewController.swift */; };
+		8D9445E72B5133EF00F274DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9445E52B5133EF00F274DF /* Main.storyboard */; };
+		8D9445EA2B5133EF00F274DF /* Astrotalk_Hiring_iOS_UIKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9445E82B5133EF00F274DF /* Astrotalk_Hiring_iOS_UIKit.xcdatamodeld */; };
+		8D9445EC2B5133F000F274DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9445EB2B5133F000F274DF /* Assets.xcassets */; };
+		8D9445EF2B5133F000F274DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9445ED2B5133F000F274DF /* LaunchScreen.storyboard */; };
+		8D9445FA2B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9445F92B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitTests.swift */; };
+		8D9446042B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9446032B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITests.swift */; };
+		8D9446062B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9446052B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITestsLaunchTests.swift */; };
+		8D94461A2B51345C00F274DF /* AuthViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9446192B51345C00F274DF /* AuthViewC.swift */; };
+		8D94461C2B51347500F274DF /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D94461B2B51347500F274DF /* Auth.storyboard */; };
+		8D94461E2B5134EC00F274DF /* AuthViewC+Extensions+CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94461D2B5134EC00F274DF /* AuthViewC+Extensions+CustomMethods.swift */; };
+		8D9446212B51352E00F274DF /* HomeViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9446202B51352E00F274DF /* HomeViewC.swift */; };
+		8D9446232B51354D00F274DF /* HomeViewC+Extensions+CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9446222B51354D00F274DF /* HomeViewC+Extensions+CustomMethods.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D9445F62B5133F000F274DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D9445D42B5133EF00F274DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D9445DB2B5133EF00F274DF;
+			remoteInfo = "Astrotalk Hiring_iOS_UIKit";
+		};
+		8D9446002B5133F000F274DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D9445D42B5133EF00F274DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D9445DB2B5133EF00F274DF;
+			remoteInfo = "Astrotalk Hiring_iOS_UIKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D9445DC2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Astrotalk Hiring_iOS_UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9445DF2B5133EF00F274DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D9445E12B5133EF00F274DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D9445E32B5133EF00F274DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D9445E62B5133EF00F274DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D9445E92B5133EF00F274DF /* Astrotalk_Hiring_iOS_UIKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Astrotalk_Hiring_iOS_UIKit.xcdatamodel; sourceTree = "<group>"; };
+		8D9445EB2B5133F000F274DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D9445EE2B5133F000F274DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D9445F02B5133F000F274DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D9445F52B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Astrotalk Hiring_iOS_UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9445F92B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astrotalk_Hiring_iOS_UIKitTests.swift; sourceTree = "<group>"; };
+		8D9445FF2B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Astrotalk Hiring_iOS_UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9446032B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astrotalk_Hiring_iOS_UIKitUITests.swift; sourceTree = "<group>"; };
+		8D9446052B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astrotalk_Hiring_iOS_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D9446192B51345C00F274DF /* AuthViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewC.swift; sourceTree = "<group>"; };
+		8D94461B2B51347500F274DF /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		8D94461D2B5134EC00F274DF /* AuthViewC+Extensions+CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthViewC+Extensions+CustomMethods.swift"; sourceTree = "<group>"; };
+		8D9446202B51352E00F274DF /* HomeViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewC.swift; sourceTree = "<group>"; };
+		8D9446222B51354D00F274DF /* HomeViewC+Extensions+CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewC+Extensions+CustomMethods.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D9445D92B5133EF00F274DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9445F22B5133F000F274DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9445FC2B5133F000F274DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D9445D32B5133EF00F274DF = {
+			isa = PBXGroup;
+			children = (
+				8D9445DE2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit */,
+				8D9445F82B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitTests */,
+				8D9446022B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitUITests */,
+				8D9445DD2B5133EF00F274DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9445DD2B5133EF00F274DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D9445DC2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit.app */,
+				8D9445F52B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitTests.xctest */,
+				8D9445FF2B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D9445DE2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8D9446122B51340400F274DF /* SystemFiles */,
+				8D9446172B51343400F274DF /* Controllers */,
+				8D9446132B51341000F274DF /* Storyboards */,
+				8D9446152B51342000F274DF /* ResourceFiles */,
+				8D9445F02B5133F000F274DF /* Info.plist */,
+				8D9446162B51342A00F274DF /* LocalDB */,
+			);
+			path = "Astrotalk Hiring_iOS_UIKit";
+			sourceTree = "<group>";
+		};
+		8D9445F82B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D9445F92B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitTests.swift */,
+			);
+			path = "Astrotalk Hiring_iOS_UIKitTests";
+			sourceTree = "<group>";
+		};
+		8D9446022B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D9446032B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITests.swift */,
+				8D9446052B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITestsLaunchTests.swift */,
+			);
+			path = "Astrotalk Hiring_iOS_UIKitUITests";
+			sourceTree = "<group>";
+		};
+		8D9446122B51340400F274DF /* SystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8D9445DF2B5133EF00F274DF /* AppDelegate.swift */,
+				8D9445E12B5133EF00F274DF /* SceneDelegate.swift */,
+				8D9445E32B5133EF00F274DF /* ViewController.swift */,
+			);
+			path = SystemFiles;
+			sourceTree = "<group>";
+		};
+		8D9446132B51341000F274DF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8D9445E52B5133EF00F274DF /* Main.storyboard */,
+				8D9445ED2B5133F000F274DF /* LaunchScreen.storyboard */,
+				8D94461B2B51347500F274DF /* Auth.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8D9446142B51341900F274DF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8D9445EB2B5133F000F274DF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8D9446152B51342000F274DF /* ResourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8D9446142B51341900F274DF /* Assets */,
+			);
+			path = ResourceFiles;
+			sourceTree = "<group>";
+		};
+		8D9446162B51342A00F274DF /* LocalDB */ = {
+			isa = PBXGroup;
+			children = (
+				8D9445E82B5133EF00F274DF /* Astrotalk_Hiring_iOS_UIKit.xcdatamodeld */,
+			);
+			path = LocalDB;
+			sourceTree = "<group>";
+		};
+		8D9446172B51343400F274DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D9446182B51344300F274DF /* AuthViewControllers */,
+				8D94461F2B51350800F274DF /* HomeViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D9446182B51344300F274DF /* AuthViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D9446192B51345C00F274DF /* AuthViewC.swift */,
+				8D94461D2B5134EC00F274DF /* AuthViewC+Extensions+CustomMethods.swift */,
+			);
+			path = AuthViewControllers;
+			sourceTree = "<group>";
+		};
+		8D94461F2B51350800F274DF /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D9446202B51352E00F274DF /* HomeViewC.swift */,
+				8D9446222B51354D00F274DF /* HomeViewC+Extensions+CustomMethods.swift */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D9445DB2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D9446092B5133F000F274DF /* Build configuration list for PBXNativeTarget "Astrotalk Hiring_iOS_UIKit" */;
+			buildPhases = (
+				8D9445D82B5133EF00F274DF /* Sources */,
+				8D9445D92B5133EF00F274DF /* Frameworks */,
+				8D9445DA2B5133EF00F274DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Astrotalk Hiring_iOS_UIKit";
+			productName = "Astrotalk Hiring_iOS_UIKit";
+			productReference = 8D9445DC2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D9445F42B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D94460C2B5133F000F274DF /* Build configuration list for PBXNativeTarget "Astrotalk Hiring_iOS_UIKitTests" */;
+			buildPhases = (
+				8D9445F12B5133F000F274DF /* Sources */,
+				8D9445F22B5133F000F274DF /* Frameworks */,
+				8D9445F32B5133F000F274DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D9445F72B5133F000F274DF /* PBXTargetDependency */,
+			);
+			name = "Astrotalk Hiring_iOS_UIKitTests";
+			productName = "Astrotalk Hiring_iOS_UIKitTests";
+			productReference = 8D9445F52B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D9445FE2B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D94460F2B5133F000F274DF /* Build configuration list for PBXNativeTarget "Astrotalk Hiring_iOS_UIKitUITests" */;
+			buildPhases = (
+				8D9445FB2B5133F000F274DF /* Sources */,
+				8D9445FC2B5133F000F274DF /* Frameworks */,
+				8D9445FD2B5133F000F274DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D9446012B5133F000F274DF /* PBXTargetDependency */,
+			);
+			name = "Astrotalk Hiring_iOS_UIKitUITests";
+			productName = "Astrotalk Hiring_iOS_UIKitUITests";
+			productReference = 8D9445FF2B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D9445D42B5133EF00F274DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8D9445DB2B5133EF00F274DF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8D9445F42B5133F000F274DF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8D9445DB2B5133EF00F274DF;
+					};
+					8D9445FE2B5133F000F274DF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8D9445DB2B5133EF00F274DF;
+					};
+				};
+			};
+			buildConfigurationList = 8D9445D72B5133EF00F274DF /* Build configuration list for PBXProject "Astrotalk Hiring_iOS_UIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D9445D32B5133EF00F274DF;
+			productRefGroup = 8D9445DD2B5133EF00F274DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D9445DB2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit */,
+				8D9445F42B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitTests */,
+				8D9445FE2B5133F000F274DF /* Astrotalk Hiring_iOS_UIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D9445DA2B5133EF00F274DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D94461C2B51347500F274DF /* Auth.storyboard in Resources */,
+				8D9445EF2B5133F000F274DF /* LaunchScreen.storyboard in Resources */,
+				8D9445EC2B5133F000F274DF /* Assets.xcassets in Resources */,
+				8D9445E72B5133EF00F274DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9445F32B5133F000F274DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9445FD2B5133F000F274DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D9445D82B5133EF00F274DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D94461E2B5134EC00F274DF /* AuthViewC+Extensions+CustomMethods.swift in Sources */,
+				8D9446212B51352E00F274DF /* HomeViewC.swift in Sources */,
+				8D9445E42B5133EF00F274DF /* ViewController.swift in Sources */,
+				8D9445E02B5133EF00F274DF /* AppDelegate.swift in Sources */,
+				8D9445E22B5133EF00F274DF /* SceneDelegate.swift in Sources */,
+				8D94461A2B51345C00F274DF /* AuthViewC.swift in Sources */,
+				8D9445EA2B5133EF00F274DF /* Astrotalk_Hiring_iOS_UIKit.xcdatamodeld in Sources */,
+				8D9446232B51354D00F274DF /* HomeViewC+Extensions+CustomMethods.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9445F12B5133F000F274DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9445FA2B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9445FB2B5133F000F274DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9446062B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITestsLaunchTests.swift in Sources */,
+				8D9446042B5133F000F274DF /* Astrotalk_Hiring_iOS_UIKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D9445F72B5133F000F274DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D9445DB2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit */;
+			targetProxy = 8D9445F62B5133F000F274DF /* PBXContainerItemProxy */;
+		};
+		8D9446012B5133F000F274DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D9445DB2B5133EF00F274DF /* Astrotalk Hiring_iOS_UIKit */;
+			targetProxy = 8D9446002B5133F000F274DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D9445E52B5133EF00F274DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9445E62B5133EF00F274DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D9445ED2B5133F000F274DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9445EE2B5133F000F274DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D9446072B5133F000F274DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D9446082B5133F000F274DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D94460A2B5133F000F274DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Astrotalk Hiring_iOS_UIKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.Astrotalk-Hiring-iOS-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D94460B2B5133F000F274DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Astrotalk Hiring_iOS_UIKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.Astrotalk-Hiring-iOS-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D94460D2B5133F000F274DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.Astrotalk-Hiring-iOS-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrotalk Hiring_iOS_UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Astrotalk Hiring_iOS_UIKit";
+			};
+			name = Debug;
+		};
+		8D94460E2B5133F000F274DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.Astrotalk-Hiring-iOS-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrotalk Hiring_iOS_UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Astrotalk Hiring_iOS_UIKit";
+			};
+			name = Release;
+		};
+		8D9446102B5133F000F274DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.Astrotalk-Hiring-iOS-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Astrotalk Hiring_iOS_UIKit";
+			};
+			name = Debug;
+		};
+		8D9446112B5133F000F274DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.Astrotalk-Hiring-iOS-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Astrotalk Hiring_iOS_UIKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D9445D72B5133EF00F274DF /* Build configuration list for PBXProject "Astrotalk Hiring_iOS_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9446072B5133F000F274DF /* Debug */,
+				8D9446082B5133F000F274DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D9446092B5133F000F274DF /* Build configuration list for PBXNativeTarget "Astrotalk Hiring_iOS_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D94460A2B5133F000F274DF /* Debug */,
+				8D94460B2B5133F000F274DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D94460C2B5133F000F274DF /* Build configuration list for PBXNativeTarget "Astrotalk Hiring_iOS_UIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D94460D2B5133F000F274DF /* Debug */,
+				8D94460E2B5133F000F274DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D94460F2B5133F000F274DF /* Build configuration list for PBXNativeTarget "Astrotalk Hiring_iOS_UIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9446102B5133F000F274DF /* Debug */,
+				8D9446112B5133F000F274DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D9445E82B5133EF00F274DF /* Astrotalk_Hiring_iOS_UIKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D9445E92B5133EF00F274DF /* Astrotalk_Hiring_iOS_UIKit.xcdatamodel */,
+			);
+			currentVersion = 8D9445E92B5133EF00F274DF /* Astrotalk_Hiring_iOS_UIKit.xcdatamodel */;
+			path = Astrotalk_Hiring_iOS_UIKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D9445D42B5133EF00F274DF /* Project object */;
+}
